@@ -1,0 +1,31 @@
+html{
+    font-size: .625em;
+    font-size: calc(1em*.625);
+}
+
+#navbar{
+    font-size: 2.5rem;
+    background-color: #d0d0d0;
+}
+
+h1{
+    font-size: 6rem!important;
+    padding-top: 2rem;
+    color: blueviolet;
+}
+
+body{
+    background-color: #3d3d3d!important;
+}
+
+#bg{
+    position: absolute;
+    background-image: url(../asset/img/ludotheque_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    width: 75%;
+    height: 75%;
+}
